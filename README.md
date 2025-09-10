@@ -1,4 +1,4 @@
-# Calculadora Python Tkinter
+# Calculadora Python
 
 ![Calculator](assets/calculator.png)
 
