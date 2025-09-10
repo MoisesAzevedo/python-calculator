@@ -1,8 +1,10 @@
-# Python Tkinter Calculator com Histórico
+# Calculadora Python Tkinter
 
-Uma calculadora moderna desenvolvida em Python com Tkinter, agora com funcionalidade completa de histórico de cálculos.
+![Calculator](assets/calculator.png)
 
-## 🚀 Funcionalidades
+Uma aplicação de calculadora simples construída com Python e o framework GUI Tkinter.
+
+## Funcionalidades
 
 ### Calculadora Básica
 - Operações matemáticas básicas (+, -, ×, ÷)
@@ -11,7 +13,7 @@ Uma calculadora moderna desenvolvida em Python com Tkinter, agora com funcionali
 - Validação de expressões matemáticas
 - Tratamento de erros (divisão por zero, expressões inválidas)
 
-### 📚 Funcionalidade de Histórico (NOVA!)
+### Funcionalidade de Histórico (NOVA!)
 - **Histórico Completo**: Visualize todos os cálculos realizados
 - **Pesquisa**: Busque por expressões ou resultados específicos
 - **Reutilização**: Clique duplo em qualquer item do histórico para usar o resultado
@@ -19,32 +21,32 @@ Uma calculadora moderna desenvolvida em Python com Tkinter, agora com funcionali
 - **Acesso Rápido**: Botão "Último" para inserir o resultado da última operação
 - **Gerenciamento**: Limpe o histórico quando necessário
 
-## 🏗️ Arquitetura
+## Arquitetura
 
 O projeto foi refatorado seguindo os **princípios SOLID**, especialmente o princípio da responsabilidade única:
 
 ```
-📁 Projeto/
-├── 📁 models/           # Modelos de dados
+Projeto/
+├── models/           # Modelos de dados
 │   ├── __init__.py
 │   └── calculation_entry.py    # Modelo para entradas de cálculo
 │
-├── 📁 services/         # Lógica de negócio
+├── services/         # Lógica de negócio
 │   ├── __init__.py
 │   └── history_manager.py      # Gerenciamento do histórico
 │
-├── 📁 ui/              # Interface do usuário
+├── ui/              # Interface do usuário
 │   ├── __init__.py
 │   └── history_window.py       # Janela de histórico
 │
-├── 📁 utils/           # Utilitários
+├── utils/           # Utilitários
 │   ├── __init__.py
 │   └── formatters.py           # Formatação e validação
 │
 └── main.py             # Arquivo principal
 ```
 
-### 🔧 Componentes
+### Componentes
 
 #### Models (`models/`)
 - **CalculationEntry**: Representa uma entrada de cálculo com expressão, resultado e timestamp
@@ -59,7 +61,7 @@ O projeto foi refatorado seguindo os **princípios SOLID**, especialmente o prin
 - **ExpressionValidator**: Valida e sanitiza expressões matemáticas
 - **NumberFormatter**: Formata números para exibição
 
-## 🚀 Como Usar
+## Como Usar
 
 ### Funcionalidades Básicas
 1. Execute `python main.py`
@@ -74,7 +76,7 @@ O projeto foi refatorado seguindo os **princípios SOLID**, especialmente o prin
 4. **Reutilizar**: Dê duplo clique em qualquer item para usar seu resultado
 5. **Limpar**: Use o botão "Limpar Histórico" para remover todos os registros
 
-## 🛠️ Dependências
+## Dependências
 
 - **Python 3.6+**
 - **tkinter** (incluído na instalação padrão do Python)
@@ -83,7 +85,7 @@ O projeto foi refatorado seguindo os **princípios SOLID**, especialmente o prin
 - **os** (biblioteca padrão)
 - **re** (biblioteca padrão)
 
-## 📱 Interface
+## Interface
 
 ### Calculadora Principal
 - **Primeira linha**: Botões de histórico ("Histórico", "Último", "C")
@@ -96,25 +98,25 @@ O projeto foi refatorado seguindo os **princípios SOLID**, especialmente o prin
 - **Botões de ação**: Limpar histórico e atualizar
 - **Informações**: Contador de cálculos encontrados
 
-## 🔒 Segurança
+## Segurança
 
 - Validação rigorosa de expressões matemáticas
 - Prevenção contra injeção de código
 - Sanitização de entrada antes da avaliação
 - Tratamento seguro de erros
 
-## 💾 Persistência
+## Persistência
 
 O histórico é automaticamente salvo em `calculator_history.json` no diretório da aplicação, permitindo que os dados persistam entre sessões.
 
-## 🎨 Design
+## Design
 
 - **Tema escuro** moderno
 - **Cores azuis** para operadores e ações
 - **Tipografia clara** (Segoe UI)
 - **Layout responsivo** que se adapta ao redimensionamento
 
-## 📝 Princípios Aplicados
+## Princípios Aplicados
 
 - **DRY (Don't Repeat Yourself)**: Funções reutilizáveis para criação de botões
 - **SOLID**: Cada classe tem uma responsabilidade específica
@@ -123,7 +125,7 @@ O histórico é automaticamente salvo em `calculator_history.json` no diretório
 
 ---
 
-Desenvolvido com foco em boas práticas de programação e experiência do usuário. 🚀
+Desenvolvido com foco em boas práticas de programação e experiência do usuário.
 
 
 
