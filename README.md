@@ -13,7 +13,7 @@ Uma aplicação de calculadora simples construída com Python e o framework GUI 
 - Validação de expressões matemáticas
 - Tratamento de erros (divisão por zero, expressões inválidas)
 
-### Funcionalidade de Histórico (NOVA!)
+### Funcionalidade de Histórico 
 - **Histórico Completo**: Visualize todos os cálculos realizados
 - **Pesquisa**: Busque por expressões ou resultados específicos
 - **Reutilização**: Clique duplo em qualquer item do histórico para usar o resultado
